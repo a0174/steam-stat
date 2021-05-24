@@ -12,7 +12,7 @@ exports.renderRecentStatCard = (profileStats, recentGames) => {
     personaState,
   } = profileStats;
   return `
-    <svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="800" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
         <style>
             .header {
             font: 600 14px "Segoe UI", Ubuntu, Sans-Serif;
