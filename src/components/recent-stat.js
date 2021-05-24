@@ -12,11 +12,11 @@ exports.renderRecentStatCard = (profileStats, recentGames) => {
     personaState,
   } = profileStats;
   return `
-    <svg width="800" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="800" height="220" viewBox="0 0 800 220" fill="none" xmlns="http://www.w3.org/2000/svg">
         <style>
             .header {
             font: 600 14px "Segoe UI", Ubuntu, Sans-Serif;
-            fill: #ffffff;
+            fill: #e5289e;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
             }
 
@@ -50,7 +50,7 @@ exports.renderRecentStatCard = (profileStats, recentGames) => {
             }
         </style>
         undefined
-        <rect x="0.5" y="0.5" rx="4.5" height="99%" stroke="#E4E2E2" width="99%" fill="#171a21" stroke-opacity="1" />
+        <rect x="0.5" y="0.5" rx="4.5" height="99%" stroke="#E4E2E2" width="99%" fill="#2b213a" stroke-opacity="1" />
 
         <g transform="translate(15, 30)">
             <g transform="translate(0, 0)">
